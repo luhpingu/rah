@@ -1,0 +1,90 @@
+/*first div*/
+.box-wrapper {
+  display: flex;
+  
+  justify-content: space-around;
+}
+
+.box { 
+  flex: 1;
+  
+  margin: 10px;
+  padding: 10px;
+  background: #aaa;
+}
+
+/* second div*/
+.box1 {
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: #6B8E23;
+	padding: 20px;
+	border: 20px #F0E68C solid;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.p1 {
+	height: 68%;
+	width: 75%;
+	color: black;
+	background-color: lightblue;
+	overflow: hidden;
+}
+
+/* third div*/
+.box2 {
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: #4169E1;
+	padding: 20px;
+	border: 20px #F0E68C solid;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.p2 {
+	height: 68%;
+	width: 75%;
+	color: black;
+	background-color: #ee6c4d;
+	overflow: scroll;
+}
+
+/* fourths div*/
+.box3 {
+	width: 300px;
+	height: 300px;
+	color: white;
+	background-color: white;
+	padding: 20px;
+	border: 20px #F0E68C solid;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.p3 {
+	border: 4px #F0E68C solid;
+	border-radius: 20px;
+	padding: 5px;
+	background-color: #f4a460;
+	text-align: center;
+}
+
+.a:link {
+	color: blueviolet;
+}
+
+.a:hover {
+	color: green;
+}
+
+.a:active {
+	color: blue;
+}
+
+.a:visited {
+	color: orange;
+}
